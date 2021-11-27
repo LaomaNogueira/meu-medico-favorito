@@ -1,6 +1,6 @@
 <h1 align="center"> Meu Médico Favorito - Api Rest Nodejs </h1>
 
-## 📕 Índice
+## Índice
 
 - [Sobre](#Sobre)
 - [Tecnologias](#Tecnologias)
@@ -12,7 +12,7 @@
 
 ## Sobre
 
-<p align="left">Desenvolvi o backend dessa API durante o curso de Node.js do Programa Women Can Code. A página web que se comunica com a API, foi desenvolvida pelo time de Frontend da Dasa.
+<p align="left">Desenvolvi o backend dessa API durante o curso de Node.js do Programa Women Can Code. A página web que se comunica com a API foi desenvolvida pelo time de Frontend da Dasa.
 </p>
 
 <p align="center">
@@ -38,6 +38,8 @@
   - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   - [NodeJS](https://nodejs.org/en/)
   - [Postgres](https://www.postgresql.org/)
+  - [Framework Express](https://expressjs.com/pt-br/)
+  - [ORM Sequelize](https://sequelize.org/)
 
 <hr>
 
@@ -101,8 +103,8 @@
 
 Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomnia.rest/download) (ou algum similar). Seguem os testes:
 
-#### HTTP *POST*:
-- Cadastrar novo médico - rota: *http://localhost:3000/doctors*
+#### *POST*:
+- <u>Cadastrar novo médico</u> - rota: *http://localhost:3000/doctors*
     Preencher o JSON, conforme exemplo:
     ```
     {
@@ -116,14 +118,14 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
     ```
 
 
-#### HTTP *GET*:
-- Listar todos os médicos - rota: *http://localhost:3000/doctors*
-- Listar os médicos favoritos - rota: *http://localhost:3000/doctors?favorite=true* (Passar *true* ou *false* como query)
-- Listar médicos por ID - rota: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
+#### *GET*:
+- <u>Listar todos os médicos</u> - rota: *http://localhost:3000/doctors*
+- <u>Listar os médicos favoritos</u> - rota: *http://localhost:3000/doctors?favorite=true* (Passar *true* ou *false* como query)
+- <u>Listar médicos por ID</u> - rota: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
 
 
-#### HTTP *PUT*:
-- Atualizar um médico existente - rota: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
+#### *PUT*:
+- <u>Atualizar um médico existente</u> - rota: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
     Preencher o JSON, com os campos que deseja atualizar, conforme exemplo:
     ```
     {
@@ -137,9 +139,9 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
     ```
 
 
-#### HTTP *PATCH*:
-- Favoritar e desfavoritar um médico - rota: *http://localhost:3000/doctors/1/favorite* (Informar o ID como parâmetro)
-    Preencher o JSON com *true* para favoritarou ou *false* para desfavoritar um médico, conforme exemplo:
+#### *PATCH*:
+- <u>Favoritar e desfavoritar um médico</u> - rota: *http://localhost:3000/doctors/1/favorite* (Informar o ID como parâmetro)
+    Preencher o JSON com *true* para favoritar ou *false* para desfavoritar um médico, conforme exemplo:
     ```
     {
     "favorite": true
@@ -147,7 +149,7 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
     ```
 
 
-#### HTTP *DELETE*:
+#### *DELETE*:
 - Deletar um médico - rota: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
 
 <hr>
@@ -157,6 +159,7 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
 ## Deploy 
 
 **__Heroku__**: [Meu Médico Favorito](https://meu-medico-favorito-laomanog.herokuapp.com/) 
+Para utilizar o Heroku, substituir na rota *http://localhost:3000* por *https://meu-medico-favorito-laomanog.herokuapp.com*.
 
 <hr>
 
