@@ -12,7 +12,7 @@
 
 ## Sobre
 
-<p align="left">Desenvolvi o backend dessa API durante o curso de Node.js do Programa Women Can Code. A página web que se comunica com a API, foi desenvolvido pelo time de Frontend da Dasa.
+<p align="left">Desenvolvi o backend dessa API durante o curso de Node.js do Programa Women Can Code. A página web que se comunica com a API, foi desenvolvida pelo time de Frontend da Dasa.
 </p>
 
 <p align="center">
