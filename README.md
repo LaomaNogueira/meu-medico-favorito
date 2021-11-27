@@ -5,7 +5,7 @@
 - [Sobre](#Sobre)
 - [Tecnologias](#Tecnologias)
 - [Iniciando o projeto](#Iniciando)
-- [Licença](#Licença)
+- [Deploy](#Deploy)
 - [Contato](#Contato)
 
 ## Sobre
@@ -37,7 +37,7 @@
 
 <hr>
 
-# Iniciando
+## Iniciando
 
 ### Pré-requisitos
 
@@ -144,11 +144,13 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
 - Deletar um médico - link: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
 
 
-<!-- ## 🚀 Deploy 
+<!-- DEPLOY -->
 
-**__Heroku__**: [Code Girls](https://code-girls.herokuapp.com/docs/) 
+## Deploy 
 
-<hr>-->
+**__Heroku__**: [Meu Médico Favorito](https://meu-medico-favorito-laomanog.herokuapp.com/) 
+
+<hr>
 
 
 <!-- CONTACT -->
