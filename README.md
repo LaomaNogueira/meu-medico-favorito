@@ -8,6 +8,8 @@
 - [Deploy](#Deploy)
 - [Contato](#Contato)
 
+<hr>
+
 ## Sobre
 
 <p align="left">Desenvolvi o backend dessa API durante o curso de Node.js do Programa Women Can Code. A página web que se comunica com a API, foi desenvolvido pelo time de Frontend da Dasa.
@@ -16,6 +18,8 @@
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message= EM%20DESENVOLVIMENTO &color=&style=for-the-badge"/>
 </p>
+
+<hr>
 
 ### Funcionalidades da API:
 
@@ -72,6 +76,7 @@
    ```sh
    npm install
    ```
+<hr>
 
 ### Uso
 
@@ -89,6 +94,8 @@
 
 
 4. Rodar os testes conforme indicado abaixo.
+
+<hr>
 
 ### Testes
 
@@ -143,6 +150,7 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
 #### HTTP *DELETE*:
 - Deletar um médico - link: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
 
+<hr>
 
 <!-- DEPLOY -->
 
@@ -151,7 +159,6 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
 **__Heroku__**: [Meu Médico Favorito](https://meu-medico-favorito-laomanog.herokuapp.com/) 
 
 <hr>
-
 
 <!-- CONTACT -->
 
@@ -167,6 +174,6 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
 <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=mailto:laomanogueira@gmail.com" />
 </a>
 
-Link do projeto: [https://github.com/LaomaNogueira/gerenciamento-escolar-api.git](https://github.com/LaomaNogueira/gerenciamento-escolar-api.git)
+Link do projeto: [https://github.com/LaomaNogueira/meu-medico-favorito.git](https://github.com/LaomaNogueira/meu-medico-favorito.git)
 
 <hr>
