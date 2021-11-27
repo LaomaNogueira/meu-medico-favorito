@@ -102,7 +102,7 @@
 Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomnia.rest/download) (ou algum similar). Seguem os testes:
 
 #### HTTP *POST*:
-- Cadastrar novo médico - link: *http://localhost:3000/doctors*
+- Cadastrar novo médico - rota: *http://localhost:3000/doctors*
     Preencher o JSON, conforme exemplo:
     ```
     {
@@ -117,13 +117,13 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
 
 
 #### HTTP *GET*:
-- Listar todos os médicos - link: *http://localhost:3000/doctors*
-- Listar os médicos favoritos - link: *http://localhost:3000/doctors?favorite=true* (Passar *true* ou *false* como query)
-- Listar médicos por ID - link: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
+- Listar todos os médicos - rota: *http://localhost:3000/doctors*
+- Listar os médicos favoritos - rota: *http://localhost:3000/doctors?favorite=true* (Passar *true* ou *false* como query)
+- Listar médicos por ID - rota: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
 
 
 #### HTTP *PUT*:
-- Atualizar um médico existente - link: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
+- Atualizar um médico existente - rota: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
     Preencher o JSON, com os campos que deseja atualizar, conforme exemplo:
     ```
     {
@@ -138,7 +138,7 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
 
 
 #### HTTP *PATCH*:
-- Favoritar e desfavoritar um médico - link: *http://localhost:3000/doctors/1/favorite* (Informar o ID como parâmetro)
+- Favoritar e desfavoritar um médico - rota: *http://localhost:3000/doctors/1/favorite* (Informar o ID como parâmetro)
     Preencher o JSON com *true* para favoritarou ou *false* para desfavoritar um médico, conforme exemplo:
     ```
     {
@@ -148,7 +148,7 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
 
 
 #### HTTP *DELETE*:
-- Deletar um médico - link: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
+- Deletar um médico - rota: *http://localhost:3000/doctors/1* (Informar o ID como parâmetro)
 
 <hr>
 
@@ -168,12 +168,12 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
 
 <p align="left"> 🤝 Se tiver interesse em conversar comigo, será ótimo trocar uma ideia com você! Estes são os meus contatos: </p>
 
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/LaomaNogueira)](https://github.com/LaomaNogueira)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/laoma-nogueira/)](https://www.linkedin.com/in/laoma-nogueira/)
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&rota=https://github.com/LaomaNogueira)](https://github.com/LaomaNogueira)
+[![rotaedin Badge](https://img.shields.io/badge/-rotaedIn-blue?style=flat-square&logo=rotaedin&logoColor=white&rota=https://www.rotaedin.com/in/laoma-nogueira/)](https://www.rotaedin.com/in/laoma-nogueira/)
 <a href="mailto:laomanogueira@gmail.com" alt="gmail" target="_blank">
-<img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=mailto:laomanogueira@gmail.com" />
+<img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&rota=mailto:laomanogueira@gmail.com" />
 </a>
 
-Link do projeto: [https://github.com/LaomaNogueira/meu-medico-favorito.git](https://github.com/LaomaNogueira/meu-medico-favorito.git)
+rota do projeto: [https://github.com/LaomaNogueira/meu-medico-favorito.git](https://github.com/LaomaNogueira/meu-medico-favorito.git)
 
 <hr>
