@@ -177,6 +177,4 @@ Para utilizar o Heroku, substituir na rota *http://localhost:3000* por *https://
 <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&rota=mailto:laomanogueira@gmail.com" />
 </a>
 
-rota do projeto: [https://github.com/LaomaNogueira/meu-medico-favorito.git](https://github.com/LaomaNogueira/meu-medico-favorito.git)
-
 <hr>
