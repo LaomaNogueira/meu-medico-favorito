@@ -2,15 +2,15 @@
 
 ## Índice
 
-- [Sobre](#Sobre)
-- [Tecnologias](#Tecnologias)
-- [Iniciando o projeto](#Iniciando)
-- [Deploy](#Deploy)
-- [Contato](#Contato)
+- <a href="#sobre">Sobre
+- <a href="#tecnologias">Tecnologias
+- <a href="#iniciando-projeto">Iniciando o Projeto
+- <a href="#deploy">Deploy
+- <a href="#contato">Contato
 
 <hr>
 
-## Sobre
+<h2 id="sobre">Sobre</h2>
 
 <p align="left">Desenvolvi o backend dessa API durante o curso de Node.js do Programa Women Can Code. A página web que se comunica com a API foi desenvolvida pelo time de Frontend da Dasa.
 </p>
@@ -34,7 +34,7 @@
 
 <!-- TECHNOLOGIES -->
 
-## Tecnologias️
+<h2 id="tecnologias">Tecnologias</h2>
   - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   - [NodeJS](https://nodejs.org/en/)
   - [Postgres](https://www.postgresql.org/)
@@ -43,7 +43,7 @@
 
 <hr>
 
-## Iniciando
+<h2 id="iniciando-projeto">Iniciando o Projeto</h2>
 
 ### Pré-requisitos
 
@@ -156,7 +156,7 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
 
 <!-- DEPLOY -->
 
-## Deploy 
+<h2 id="deploy">Deploy</h2>
 
 **__Heroku__**: [Meu Médico Favorito](https://meu-medico-favorito-laomanog.herokuapp.com/) 
 Para utilizar o Heroku, substituir na rota *http://localhost:3000* por *https://meu-medico-favorito-laomanog.herokuapp.com*.
@@ -165,7 +165,7 @@ Para utilizar o Heroku, substituir na rota *http://localhost:3000* por *https://
 
 <!-- CONTACT -->
 
-## Contato
+<h2 id="contato">Contato</h2>
 
 #### Laoma Nogueira
 
