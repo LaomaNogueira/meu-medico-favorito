@@ -173,10 +173,9 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
 
 <p align="left"> 🤝 Se tiver interesse em conversar comigo, será ótimo trocar uma ideia com você! Estes são os meus contatos: </p>
 
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&rota=https://github.com/LaomaNogueira)](https://github.com/LaomaNogueira)
-[![rotaedin Badge](https://img.shields.io/badge/-rotaedIn-blue?style=flat-square&logo=rotaedin&logoColor=white&rota=https://www.rotaedin.com/in/laoma-nogueira/)](https://www.rotaedin.com/in/laoma-nogueira/)
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/LaomaNogueira)](https://github.com/LaomaNogueira)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/laoma-nogueira/)](https://www.linkedin.com/in/laoma-nogueira/)
 <a href="mailto:laomanogueira@gmail.com" alt="gmail" target="_blank">
-<img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&rota=mailto:laomanogueira@gmail.com" />
+<img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=mailto:laomanogueira@gmail.com" />
 </a>
-
 <hr>
