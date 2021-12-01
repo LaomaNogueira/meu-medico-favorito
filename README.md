@@ -35,6 +35,7 @@
 <!-- TECHNOLOGIES -->
 
 <h2 id="tecnologias">Tecnologias</h2>
+  
   - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   - [NodeJS](https://nodejs.org/en/)
   - [Postgres](https://www.postgresql.org/)
@@ -159,7 +160,8 @@ Com a API em funcionamento, vamos rodar os testes via [Insomnia](https://insomni
 <h2 id="deploy">Deploy</h2>
 
 **__Heroku__**: [Meu Médico Favorito](https://meu-medico-favorito-laomanog.herokuapp.com/) 
-Para utilizar o Heroku, substituir na rota *http://localhost:3000* por *https://meu-medico-favorito-laomanog.herokuapp.com*.
+
+  Para utilizar o Heroku, substituir na rota *http://localhost:3000* por *https://meu-medico-favorito-laomanog.herokuapp.com*.
 
 <hr>
 
