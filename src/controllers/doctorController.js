@@ -65,7 +65,7 @@ const updateFavorite = async (req, res) => {
     console.log(`doctor${id}favorite${favorite}`)
     try {
         const rowsUpdated = await Doctor.update({ favorite }, { where: { id: id } });
-        console.log(`rowsUpdated${rowsUpdated}`)
+        
         if (rowsUpdated && rowsUpdated > 0) {
             res.status(200).send({ message: `${rowsUpdated[0]} medico(s) com informação de favorito atualizada com sucesso` });
         } else {
