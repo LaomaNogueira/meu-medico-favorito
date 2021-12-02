@@ -80,7 +80,7 @@ const deleteDoctor = async (req, res) => {
     const { id } = req.params;
     try {
         const rowsDeleted = await Doctor.destroy({ where: { id: id } });
-        if (`linhas ${rowsDeleted}`) {
+        if (rowsDeleted) {
             res.status(200).send({ message: `${rowsDeleted} medico(s) deletado(s) com sucesso` });
         } else {
             res.status(404).send({ message: `Medico com id ${id} não encontrado para deletar` });
